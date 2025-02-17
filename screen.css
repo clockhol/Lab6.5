@@ -1,4 +1,31 @@
 /* Add screen styles below */
-a.active {
-    font-weight: bold;
+@import url('https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,700&family=Krub:wght@400;700&display=swap');
+
+:root {
+    --main-bg-color: #F2E8CF;
+    --alt-bg-color: #6A994E;
+    --primary-text-color: #386641;
+    --alt-text-color: #6A994E;
+    --accent-color: #BC4749;
+}
+
+header h1 {
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+}
+
+body {
+    background: var(--main-bg-color);
+    color: var(--primary-text-color);
+    font-family: "Krub", sans-serif;
+}
+
+img {
+    display: block;
+    padding: 20px;
+    width: 500px;
+    height: 500px;
+    margin: 0 auto;
+    border-radius: 50px;
 }
