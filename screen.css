@@ -27,9 +27,10 @@ body {
 
 img {
     display: block;
-    padding: 20px;
     width: 500px;
     height: 500px;
-    margin: 0 auto;
+    margin: 20px auto;
     border-radius: 50px;
+    border: 1px solid;
+    border-color: var(--alt-bg-color)
 }
